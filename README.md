@@ -6,7 +6,7 @@
 
 - Clonar repositório ```git clone [url]```.
 - Instalar o nodejs e yarn.
-- Utilizar o comando ```yarn``` para instalação das dependências.
+- Utilizar o comando ```yarn add``` para instalação das dependências.
 - Utilizar o comando ```yarn dev``` para rodar o projeto na sua máquina.
 
 #### Extensões do vscode
