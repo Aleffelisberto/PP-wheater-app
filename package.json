@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "eslint-config-standard-with-typescript": "^22.0.0",
     "npm": "^8.13.2",
     "react": "^18.0.0",
