@@ -8,6 +8,7 @@
 - Instalar o nodejs e yarn.
 - Utilizar o comando ```yarn``` para instalação das dependências.
 - Utilizar o comando ```yarn dev``` para rodar o projeto na sua máquina.
+- amo a ct junior
 
 #### Extensões do vscode
 - ESlint
