@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply text-zinc-100 font-lato flex items-center justify-center h-screen overflow-hidden bg-weather-bg
+  @apply text-zinc-100 font-lato flex items-center justify-center h-screen bg-weather-bg
 }
