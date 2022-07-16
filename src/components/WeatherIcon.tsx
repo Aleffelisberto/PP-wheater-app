@@ -17,7 +17,7 @@ import {
 
 export const WeatherIcon = (props: WeatherIconProps): JSX.Element => {
   const { code, hour } = props
-  const size = 200
+  const size = 160
   const isDay = (hour >= 6 && hour < 18) ? true : false
 
   if (code === 0) return isDay ? <Sun size={size} /> : <MoonStars size={size} />

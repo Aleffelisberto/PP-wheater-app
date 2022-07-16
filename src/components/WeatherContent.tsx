@@ -77,18 +77,18 @@ export const WeatherContent = () => {
   })
 
   return (
-    <div className="flex flex-col items-center justify-center mx-auto bg-black bg-opacity-75 p-[80px] rounded-[50px]">
-      <h1 className="leading-tight text-8xl text-white mb-8">{temperature}°C</h1>
-      <h2 className="leading-tight text-4xl text-white font-thin mb-6">{weatherCode(weatherCondition)}</h2>
+    <div className="flex flex-col items-center justify-center mx-auto bg-black bg-opacity-75 p-[60px] rounded-[50px]">
+      <h1 className="leading-tight text-7xl text-white mb-6">{temperature}°C</h1>
+      <h2 className="leading-tight text-3xl text-white font-thin mb-4">{weatherCode(weatherCondition)}</h2>
       <WeatherIcon
         code={weatherCondition}
         hour={hour}
       />
-      <div className="flex items-center justify-between mb-5 mt-6">
-        <span className="block mr-10 md:text-3xl text-2xl font-light">Min: {minTemperature} °C</span>
-        <span className="block md:text-3xl text-2xl font-light">Max: {maxTemperature} °C</span>
+      <div className="flex items-center justify-between mb-4 mt-5">
+        <span className="block md:text-2xl text-1xl font-light">Min: {minTemperature} °C</span>
+        <span className="block md:text-2xl text-1xl font-light">Max: {maxTemperature} °C</span>
       </div>
-      <p className="mb-14 md:text-3xl text-2xl font-light">Umidade relativa: {relativeHumidity}%</p>
+      <p className="mb-14 md:text-2xl text-1xl font-light">Umidade relativa: {relativeHumidity}%</p>
       <div className="flex flex-row w-full justify-between md:text-2xl text-1xl font-thin mb-1">
         <span className="block">{tomorrowDay}</span>
         <span className="block">{tomorrowMinTemperature}°C / {tomorrowMaxTemperature}°C</span>
