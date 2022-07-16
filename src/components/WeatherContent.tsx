@@ -85,7 +85,7 @@ export const WeatherContent = () => {
         hour={hour}
       />
       <div className="flex items-center justify-between mb-4 mt-5">
-        <span className="block md:text-2xl text-1xl font-light">Min: {minTemperature} °C</span>
+        <span className="block md:text-2xl mr-3 text-1xl font-light">Min: {minTemperature} °C</span>
         <span className="block md:text-2xl text-1xl font-light">Max: {maxTemperature} °C</span>
       </div>
       <p className="mb-14 md:text-2xl text-1xl font-light">Umidade relativa: {relativeHumidity}%</p>
